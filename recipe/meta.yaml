@@ -10,7 +10,7 @@ source:
   sha256: bb0ceda7694ed161a830d022c2f282388c7979d97a409a81028d489738ad127a
 
 build:
-  number: 0
+  number: 1
   skip: true  # [win]
 
 requirements:
@@ -40,3 +40,4 @@ extra:
   recipe-maintainers:
     - wolfv
     - tdejager
+    - dbast
