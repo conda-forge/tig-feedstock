@@ -10,12 +10,13 @@ source:
   sha256: f759ec005bb918cab224df7e2a538b55b38f79762e925c359c13bfe2bc8fe48b
 
 build:
-  number: 0
+  number: 1
   skip: true  # [win]
 
 requirements:
   build:
     - {{ compiler('c') }}
+    - {{ stdlib("c") }}
     - autoconf
     - automake
     - pkg-config
@@ -39,3 +40,4 @@ extra:
   recipe-maintainers:
     - wolfv
     - tdejager
+    - dbast
