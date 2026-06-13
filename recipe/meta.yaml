@@ -1,5 +1,5 @@
 {% set name = "tig" %}
-{% set version = "2.6.0" %}
+{% set version = "2.6.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/jonas/{{ name }}/archive/refs/tags/{{ name }}-{{ version }}.tar.gz
-  sha256: e5c84bac827ba40e4ca9a311aeef4b93257b8cccd1b15e97ead44baea787786c
+  sha256: 686967750b9b6331b9f8dedff73ca2e3a5eba3545f77a5af24e42ce6f0527a4c
 
 build:
   number: 0
